@@ -1,0 +1,43 @@
+{
+  "name": "webdriverio-typescript-boilerplate",
+  "version": "0.0.1",
+  "description": "WebdriverIO TypeScript boilerplate.",
+  "scripts": {
+    "build": "rm -rf ./build && tsc",
+    "test": "npm run build && wdio ./build/wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriilazebnyi/webdriverio-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "selenium",
+    "mocha",
+    "webdriverio",
+    "wdio",
+    "typescript"
+  ],
+  "author": "Andrii Lazebnyi <lazebniy.a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andriilazebnyi/webdriverio-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/andriilazebnyi/webdriverio-typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.14",
+    "@types/webdriverio": "^4.7.0",
+    "chai": "^3.5.0",
+    "typescript": "^2.3.2",
+    "wdio-firefox-profile-service": "^0.0.3",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-screenshots-cleanup-service": "^0.0.6",
+    "wdio-selenium-standalone-service": "^0.0.8",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.7.1"
+  },
+  "contributors": [
+    "Andrii Lazebnyi <lazebniy.a@gmail.com>"
+  ]
+}
